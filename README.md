@@ -6,21 +6,23 @@ A library for Dart developers. It is awesome.
 
 A simple usage example:
 
-    import 'package:mac_spotify/mac_spotify.dart';
+```dart
+import 'package:mac_spotify/mac_spotify.dart';
 
-	main() {
-	  Spotify s = new Spotify();
-	  s.playTrack('spotify:track:223pTIXzqcuxzQyAtz5kyo');
-	  s.playpause();
-	  s.play();
-	  s.pause();
-	  s.volumeUp();
-	  s.volumeDown();
-	  s.volume(50);
-	  s.next();
-	  s.previous();
-	  s.jumpTo(100);
-	}
+main() {
+  Spotify s = new Spotify();
+  s.playTrack('spotify:track:223pTIXzqcuxzQyAtz5kyo');
+  s.playpause();
+  s.play();
+  s.pause();
+  s.volumeUp();
+  s.volumeDown();
+  s.volume(50);
+  s.next();
+  s.previous();
+  s.jumpTo(100);
+}
+```
 
 ## Features and bugs
 
