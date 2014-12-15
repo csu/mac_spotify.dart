@@ -1,0 +1,8 @@
+name: mac_spotify
+version: 0.0.1
+author: Christopher Su
+description: A library for controlling the Spotify client on Mac.
+homepage: https://github.com/csu/mac_spotify.dart
+documentation: https://github.com/csu/mac_spotify.dart
+dependencies:
+  applescript: any
